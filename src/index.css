@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F8F7FB;
+    color: #2B2A3D;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #2B2A3D;
+  }
+
+  .font-serif-display {
+    font-family: 'Newsreader', Georgia, serif;
+    font-feature-settings: "ss01", "ss02";
+  }
+
+  .font-technical {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .font-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 7s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 4s ease-in-out infinite;
+}
+
+/* Subtle Network Graph Watermark Pattern */
+.bg-graph-pattern {
+  background-image: 
+    radial-gradient(#4B4FCF 0.75px, transparent 0.75px),
+    radial-gradient(#E88C5A 0.75px, transparent 0.75px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Alternating Section Backgrounds */
+.section-base {
+  background-color: #F8F7FB;
+}
+
+.section-tinted {
+  background-color: #F1EFFA;
+  border-top: 1px solid #E2E1EC;
+  border-bottom: 1px solid #E2E1EC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
