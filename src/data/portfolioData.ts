@@ -341,7 +341,7 @@ export const CERTIFICATIONS_DATA: CertificationItem[] = [
 
 export const EDUCATION_DATA: EducationItem = {
   institution: 'Faculty of Computers and Artificial Intelligence, Assiut University',
-  degree: 'Bachelor of Science in Software Engineering',
+  degree: "Bachelor's Degree in Software Engineering",
   gpa: '3.86 / 4.0',
   timeline: 'Expected Graduation 2027',
   location: 'Assiut, Egypt',
