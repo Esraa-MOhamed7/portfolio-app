@@ -40,4 +40,3 @@ A modern, light-themed, high-performance personal portfolio showcasing practical
 *Machine Learning & AI Engineer*  
 - **LinkedIn:** [Esraa Mohamed](https://linkedin.com/in/esraa-mohamed-ml)
 - **GitHub:** [Esraa-MOhamed7](https://github.com/Esraa-MOhamed7)
-- **Hugging Face:** [Esraa-Mohamed7](https://huggingface.co/Esraa-Mohamed7)
